@@ -1,3 +1,3 @@
 # Services
 
-Reserved for future Kubernetes Service definitions that expose workloads inside or outside the cluster.
+Contains service exposure examples aligned to workload manifests in this repository.

@@ -110,6 +110,19 @@ This repository does not yet claim that full target state. It documents the tran
 - [Operations Direction](docs/operations.md)
 - [Platform Roadmap](docs/platform-roadmap.md)
 
+## Platform Security Baseline
+
+This repository now includes a first-pass Kubernetes security baseline with example manifests for:
+
+- a regulated workload namespace in [k8s/namespaces/regulated-services.yaml](k8s/namespaces/regulated-services.yaml)
+- least-privilege RBAC in [k8s/security/workload-reader-rbac.yaml](k8s/security/workload-reader-rbac.yaml)
+- a secret consumption pattern in [k8s/secrets/patient-api-config.example.yaml](k8s/secrets/patient-api-config.example.yaml)
+- a secure workload example in [k8s/deployments/patient-api.yaml](k8s/deployments/patient-api.yaml)
+- a matching internal service in [k8s/services/patient-api.yaml](k8s/services/patient-api.yaml)
+- namespace segmentation examples in [k8s/network-policies/regulated-services-baseline.yaml](k8s/network-policies/regulated-services-baseline.yaml)
+
+These are implementation examples, not a claim of production readiness. They are intended to show secure platform patterns that can later be adapted to real services and clusters.
+
 ## Near-Term Roadmap
 
 - improve Terraform validation and repository automation

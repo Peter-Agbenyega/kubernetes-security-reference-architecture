@@ -1,5 +1,5 @@
 # K8s Scaffold
 
-This directory is the future home for Kubernetes platform assets once they are implemented.
+This directory now contains a minimal Kubernetes security baseline alongside scaffold areas for future platform assets.
 
-It is intentionally a scaffold only. Its presence should be read as repository direction, not completed platform capability.
+The current manifests are examples intended to demonstrate secure platform patterns. They should be adapted and validated before use in a real cluster.

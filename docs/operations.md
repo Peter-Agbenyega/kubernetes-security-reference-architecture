@@ -7,6 +7,7 @@ ClusterShield360 is still in an infrastructure-foundation stage, so its operatio
 - Terraform is executed manually from the repository root
 - configuration review is expected before any plan or apply action
 - outputs currently expose only a small amount of infrastructure state
+- Kubernetes manifests in `k8s/` are example assets intended for manual review and adaptation before cluster use
 
 ## Current Limitations
 
@@ -28,3 +29,7 @@ The operational path for this project is to mature gradually:
 4. place observability components in `monitoring/` when they are implemented and testable
 
 This approach supports resilient digital services without overstating current platform readiness.
+
+## Validation Note
+
+The Kubernetes manifests added to this repository are examples, not drop-in production assets. The intended next step is to validate them with repository checks such as `kubectl apply --dry-run=client` or schema validation in CI/CD once a delivery workflow is introduced.

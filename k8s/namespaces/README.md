@@ -1,3 +1,3 @@
 # Namespaces
 
-Reserved for future namespace baselines and environment separation manifests.
+Contains namespace baseline examples for controlled workload separation.

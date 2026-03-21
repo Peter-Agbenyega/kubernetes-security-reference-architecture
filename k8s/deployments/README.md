@@ -1,3 +1,3 @@
 # Deployments
 
-Reserved for future workload deployment manifests or Helm-rendered equivalents once real services are added.
+Contains secure workload deployment examples that can be adapted for real services.

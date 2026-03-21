@@ -1,3 +1,3 @@
 # Security Assets
 
-Reserved for future Kubernetes security artifacts such as policy manifests or workload hardening baselines.
+Contains RBAC and workload security baseline examples. Additional controls should only be added when implemented and testable.

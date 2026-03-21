@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: patient-api
+  namespace: regulated-services
+  labels:
+    app.kubernetes.io/name: patient-api
+    app.kubernetes.io/part-of: clustershield360
+spec:
+  type: ClusterIP
+  selector:
+    app.kubernetes.io/name: patient-api
+  ports:
+    - name: http
+      port: 8080
+      targetPort: http
