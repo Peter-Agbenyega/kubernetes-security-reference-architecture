@@ -1,4 +1,4 @@
-# ClusterShield360
+# kubernetes-security-reference-architecture
 
 Secure Kubernetes Platform for Resilient Digital Service Delivery
 
